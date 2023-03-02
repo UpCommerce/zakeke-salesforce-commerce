@@ -1,0 +1,7 @@
+<isif condition="${lineItem.appliedPromotions}">
+    <isloop items="${lineItem.appliedPromotions}" var="appliedPromotion">
+    	<isif condition="${!(appliedPromotion.promotionID===lineItem.ZAKEKE_CompositionID)}">
+        	<div>${appliedPromotion.callOutMsg}</div>
+        </isif>
+    </isloop>
+</isif>

@@ -1,0 +1,26 @@
+<!--- TEMPLATENAME: zakCustomizeError.isml --->
+<link rel="stylesheet" href="${URLUtils.staticURL('/css/zakeke.css')}" />
+
+
+<div class="div-plugin-container">
+	  <div class="div-plugin-header" >
+	    <a href="${URLUtils.url('Product-Show', 'pid', pdict.pidSelected)}">
+	    	<span>
+	    		${Resource.msg('zakCustomize.linkReturnToProduct','zakeke',null)}
+	    	</span>
+	    </a>
+	  </div>
+	  <div class="div-error">
+	   	<span>
+	   		${pdict.errorMsg}
+	   		
+	   	</span> 
+	  </div>
+</div>
+
+
+
+
+
+
+

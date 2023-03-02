@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.div-plugin-container {
+  padding: 1em;
+}
+
+.div-plugin-header {
+  text-align: right;
+}
+
+.div-plugin-header a {
+  color: #0070d2;
+  font: bold  0.75em Roboto, sans-serif;
+  text-decoration: none;
+}
+
+#zakeke-composer-frame {
+  width: 100%;
+  height: 90%;
+  scrolling: auto;
+  border: 0;
+}
+
+iframe {
+  width: 100%;
+  height: 90%;
+  scrolling: auto;
+  border: 0;
+}
+
+.div-error {
+  font: 0.75em Roboto, sans-serif;
+}

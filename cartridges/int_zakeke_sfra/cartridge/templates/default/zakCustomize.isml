@@ -1,0 +1,44 @@
+<!--- TEMPLATENAME: zakCustomize.isml --->
+<link rel="stylesheet" href="${URLUtils.staticURL('/css/zakeke.css')}" />
+
+<div class="div-plugin-container">
+  <div class="div-plugin-header" >
+	    <a href="${URLUtils.url('Product-Show', 'pid', pdict.pidSelected)}">
+	    	<span>${Resource.msg('zakCustomize.linkReturnToProduct','zakeke',null)}</span>
+	    </a>
+  </div>
+  <div class="">
+	    <form id="zakeke-composer-addtocart" action="/cart/add" method="post" enctype="multipart/form-data">
+	      <input type="hidden" name="id">
+	      <input type="hidden" name="quantity" value="1">
+	    </form>
+	    
+	    <div id="zakeke-composer-container" 
+	    	zakeke-exchange-rates="${pdict.exchangeRates}"
+	    	zakeke-unit-prices="${pdict.unitPrices}"
+	    	zakeke-url="${pdict.zakekeUrl}"
+	    	zakeke-product-name="${pdict.productName}"
+	    	zakeke-currency="${pdict.currency}"
+	    	zakeke-culture="${pdict.locale}"
+	    	zakeke-model-code="${pdict.pidMaster}"
+	    	zakeke-qty="${pdict.quantity}"
+	    	zakeke-customer="${pdict.customerID}"
+	    	zakeke-guest= "${pdict.visitorcode}"
+	    	zakeke-attributes="${pdict.productVariantOptions}"
+	    	zakeke-token="${pdict.token}"
+	    	zakeke-cart-show-url="${URLUtils.url('Cart-Show')}"
+	    	zakeke-zak-cart-show-url="${URLUtils.https('ZakCart-Show')}"
+	    	zakeke-tax-policy="${pdict.taxPolicy}"
+	    	zakeke-tax-rate="${pdict.taxRate}"
+	    	zakeke-currency-base="${pdict.currencyBase}"
+	    >
+	      <iframe id="zakeke-composer-frame" src="about:blank" ></iframe>
+	    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="${URLUtils.staticURL('/js/zakCustomize.js')}"></script>
+
+
+
+

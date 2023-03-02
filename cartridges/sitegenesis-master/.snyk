@@ -1,0 +1,128 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-JSYAML-173999:
+    - istanbul > js-yaml:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.320Z'
+  SNYK-JS-JSYAML-174129:
+    - istanbul > js-yaml:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.320Z'
+  SNYK-JS-LODASH-1018905:
+    - istanbul > istanbul-api > async > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.321Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.321Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.321Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.321Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.321Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+  SNYK-JS-LODASH-1040724:
+    - istanbul > istanbul-api > async > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.321Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.321Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.321Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.321Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.321Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+    - istanbul > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+  SNYK-JS-MINIMIST-559764:
+    - istanbul > mkdirp > minimist:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+      browserify > subarg > minimist:
+        reason: No remediation path available
+        expires: '2021-04-17T17:02:42.107Z'
+    - istanbul > istanbul-api > mkdirp > minimist:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+      browserify > deps-sort > subarg > minimist:
+        reason: No remediation path available
+        expires: '2021-04-17T17:02:42.107Z'
+    - istanbul > istanbul-api > istanbul-lib-report > mkdirp > minimist:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+      browserify > module-deps > subarg > minimist:
+        reason: No remediation path available
+        expires: '2021-04-17T17:02:42.107Z'
+    - istanbul > istanbul-api > istanbul-lib-source-maps > mkdirp > minimist:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.322Z'
+    - istanbul > istanbul-api > istanbul-reports > handlebars > optimist > minimist:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.323Z'
+  SNYK-JS-HANDLEBARS-1056767:
+    - istanbul > istanbul-api > istanbul-reports > handlebars:
+        reason: No remediation path available
+        expires: '2021-04-17T16:52:40.320Z'
+  SNYK-JS-ACORN-559469:
+    - browserify > insert-module-globals > acorn-node > acorn:
+        reason: No remediation path available
+        expires: '2021-04-17T17:02:42.106Z'
+    - browserify > syntax-error > acorn-node > acorn:
+        reason: No remediation path available
+        expires: '2021-04-17T17:02:42.106Z'
+    - browserify > insert-module-globals > undeclared-identifiers > acorn-node > acorn:
+        reason: No remediation path available
+        expires: '2021-04-17T17:02:42.106Z'
+  SNYK-JS-ELLIPTIC-1064899:
+    - browserify > crypto-browserify > browserify-sign > elliptic:
+        reason: No remediation path available
+        expires: '2021-04-17T17:02:42.106Z'
+    - browserify > crypto-browserify > create-ecdh > elliptic:
+        reason: No remediation path available
+        expires: '2021-04-17T17:02:42.106Z'
+  SNYK-JS-ELLIPTIC-571484:
+    - browserify > crypto-browserify > browserify-sign > elliptic:
+        reason: No remediation path available
+        expires: '2021-04-17T17:02:42.106Z'
+    - browserify > crypto-browserify > create-ecdh > elliptic:
+        reason: No remediation path available
+        expires: '2021-04-17T17:02:42.106Z'
+patch: {}

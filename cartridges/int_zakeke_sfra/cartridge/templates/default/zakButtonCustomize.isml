@@ -1,0 +1,8 @@
+<!--- TEMPLATENAME: zakButtonCustomize.isml --->
+
+<div id='zakButtonDiv' class='attribute col-8'>
+	<button id='zak-button' class="btn btn-primary" url-data="${pdict.url}">
+			<i class='fa fa-magic'></i>
+            ${Resource.msg('zakButtonCustomize.buttonCustomize','zakeke',null)}
+    </button>
+</div>

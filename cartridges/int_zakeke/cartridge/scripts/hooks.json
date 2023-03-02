@@ -1,0 +1,5 @@
+{
+	"hooks": [
+		{"name": "zak.orderClosed", "script": "./hooks/zakOrderClosed.js"}
+	]
+}

@@ -1,0 +1,22 @@
+<!--- TEMPLATENAME: zakButtonCustomize.isml --->
+
+<link rel="stylesheet" href="${URLUtils.staticURL('/css/zakeke.css')}" />
+<div>
+	<a id="zak-button" class="button simple" 
+		title="${Resource.msg('zakButtonCustomize.buttonCustomizeTitle','zakeke',null)}" ${pdict.disabledAttr}>
+		${Resource.msg('zakButtonCustomize.buttonCustomize','zakeke',null)}
+	</a>
+</div>
+<div style="padding-bottom: 0.6em"></div>
+
+<script type="text/javascript">
+	document.getElementById("zak-button").onclick = function () {
+		let url='<isprint value="${pdict.url}" encoding="jssource"/>';
+		let quantity=document.getElementById("Quantity").value;
+		
+		location.href = url + "&quantity="+quantity;
+	}
+</script>
+
+
+
