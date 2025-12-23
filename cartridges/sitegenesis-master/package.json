@@ -48,8 +48,8 @@
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "mocha": "^2.3.3",
-    "moment-timezone": "^0.4.1",
-    "node-sass": "^4.11.0",
+    "moment-timezone": "^0.5.35",
+    "node-sass": "^7.0.0",
     "phantomjs": "^1.9.18",
     "postcss-cli": "^2.5.1",
     "properties-parser": "^0.3.0",
@@ -64,7 +64,7 @@
     "vinyl-transform": "^1.0.0",
     "watchify": "^3.6.0",
     "webdriverio": "^3.3.0",
-    "xml2js": "^0.4.15"
+    "xml2js": "^0.5.0"
   },
   "scripts": {
     "test:unit": "node bin/test.js",
